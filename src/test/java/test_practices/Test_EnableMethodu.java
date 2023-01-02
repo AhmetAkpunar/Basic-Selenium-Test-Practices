@@ -43,9 +43,9 @@ public class Test_EnableMethodu {
         driver.findElement(By.xpath("//*[text()='Add']"));
 
         //7. Test It’s back message is displayed
-      WebElement itsBackElement =
-              wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='message']")));
-      Assert.assertTrue(itsBackElement.isDisplayed());
+        WebElement itsBackElement =
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='message']")));
+        Assert.assertTrue(itsBackElement.isDisplayed());
 
     }
 
