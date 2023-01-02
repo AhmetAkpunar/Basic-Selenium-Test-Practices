@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class Test_ExplicitlyWaitMethodu {
+public class Test_EnableMethodu {
 
     WebDriver driver;
     @Before
